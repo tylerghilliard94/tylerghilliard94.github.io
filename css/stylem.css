@@ -719,6 +719,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	padding-left: 70px;
 }
 .arlo_tm_about .rightbox .about_title{margin-bottom: 30px;}
+.arlo_tm_about .rightbox .about_title{padding-bottom: 30px;}
 .arlo_tm_about .rightbox .about_title h3{font-size: 20px;}
 .arlo_tm_about .rightbox .about_title h3 .arlo_tm_animation_text_word{color: #ff214f;}
 .arlo_tm_about .rightbox .text{
@@ -2463,5 +2464,5 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 .footerImg2{
 	width: 40%;
 	height: auto;
-	margin-left: 4vw;
+	margin-left: vw;
 }
