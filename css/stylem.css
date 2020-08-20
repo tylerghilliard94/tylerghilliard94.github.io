@@ -364,6 +364,10 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	align-items: center;
 	justify-content: space-between;
 }
+.arlo_tm_topbar .topbar_in .logo{
+	width: 25%;
+	height: auto;
+}
 .arlo_tm_topbar .topbar_inner .trigger a{
 	text-decoration: none;
 	color: #000;
@@ -796,6 +800,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	position: relative;
 	overflow: hidden;
 }
+
 .arlo_tm_about .buttons ul li a:before{
 	position: absolute;
     content: "";
@@ -807,6 +812,44 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
     transform: skew(50deg);
     transition-duration: .6s;
     z-index: 1;
+}
+
+.buttonsPortfolio{
+	
+	text-decoration: none;
+	color: #fff;
+	background-color: #ff214f;
+
+	font-family: "Montserrat";
+	list-style-type: none;
+	overflow: hidden;
+	width: 30%;
+	height: 1.8vw;
+	margin-bottom: -2vw;
+	text-align: center;
+	margin-left: 6.4vw;
+	margin-top: 1vw;
+	
+}
+
+.buttonsPortfolio li a{
+	width: 10vw;
+	padding:0vw;
+	color: #fff !important;
+	margin-top: .2vw;
+	
+	
+	list-style-type: none;
+}
+
+.buttonsPortfolio a{
+	width: 10vw;
+	padding:0vw;
+	color: #fff !important;
+	margin-top: .2vw;
+	
+	
+	list-style-type: none;
 }
 .arlo_tm_about .buttons ul li a:hover:before{width: 150%;}
 .arlo_tm_about .buttons ul li span{
@@ -842,7 +885,8 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	clear: both;
 	float: left;
 	background-color: #f9f9f9;
-	padding: 140px 0px 100px 0px;
+	padding: 140px 0px 0px 0px;
+	margin-bottom: -4.5vw;
 }
 .arlo_tm_services .service_inner{
 	width: 100%;
@@ -1034,6 +1078,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
+	
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -1506,7 +1551,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_contact .short_list ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
-	width: 33.3333%;
+	width: 28.3333%;
 	padding-left: 50px;
 }
 .arlo_tm_contact .short_list ul li .svg{
@@ -2151,7 +2196,9 @@ body.dark .arlo_tm_logo_author .image .main:before{background-color: rgba(255,25
 }
 .arlo_tm_intro_footer p a:hover{border-bottom-color: #fff;}
 
-
+.dark_skills{
+	color: #fff !important;
+}
 /*---------------------------------------------------*/
 /*	21) ARLO CLASSIC
 /*---------------------------------------------------*/
@@ -2401,3 +2448,20 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 @media (max-width: 480px) {
 	.arlo_tm_hero_header .hero_content .name_holder h3{font-size: 35px;}
 }	
+
+.footer_inner a{
+	width: 10%;
+	height: auto;
+}
+.footerImg1{
+	
+	width: 50%;
+	height: auto;
+	margin-right: 3vw;
+	margin-left: -16vw;
+}
+.footerImg2{
+	width: 40%;
+	height: auto;
+	margin-left: 4vw;
+}

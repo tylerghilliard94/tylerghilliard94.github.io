@@ -187,6 +187,35 @@ function arlo_tm_popup() {
 		});
 
 	});
+	jQuery('.zoom2').each(function () { // the containers for all your galleries
+		jQuery(this).magnificPopup({
+			items: [
+				{
+					delegate: 'a.zoom2', // the selector for gallery item
+				},
+				{
+					src: `<div class="buttons">
+						<ul>
+							<li><a href="img/Tyler G. Hilliard Resume.pdf"
+									download><span>Download
+										CV</span></a></li>
+							<!-- <li><a href="#"><span>Send Message</span></a></li> -->
+						</ul>
+					</div>`
+				}
+			],
+
+
+			type: 'image',
+			gallery: {
+				enabled: true
+			},
+			removalDelay: 300,
+			mainClass: 'mfp-fade'
+
+		});
+
+	});
 	jQuery('.popup-youtube').each(function () { // the containers for all your galleries
 		jQuery(this).magnificPopup({
 			disableOn: 700,
